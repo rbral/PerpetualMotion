@@ -1,6 +1,7 @@
 package com.example.perpetualmotion.classes;
 
 import android.animation.Animator;
+import android.graphics.Color;
 import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.perpetualmotion.R;
 import com.example.perpetualmotion.interfaces.AdapterOnItemClickListener;
+import com.mintedtech.perpetual_motion.pm_game.Card;
 
 import java.util.Locale;
 
@@ -70,6 +72,9 @@ public class CardPilesAdapter extends RecyclerView.Adapter<CardPileTopViewHolder
         return new CardPileTopViewHolder(itemView);
 
     }
+
+
+
 
     @Override
     public void onBindViewHolder(@NonNull CardPileTopViewHolder holder, int position) {

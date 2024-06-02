@@ -18,7 +18,7 @@ public class CardPileTopViewHolder extends RecyclerView.ViewHolder implements Vi
     public final CheckBox cb_pile_card_checkbox;
 
 
-    public CardPileTopViewHolder(@NonNull View itemView, TextView tvPileCardCardsInStack) {
+    public CardPileTopViewHolder(@NonNull View itemView/*, TextView tvPileCardCardsInStack*/) {
         super(itemView);
 
         cv_pile_inner_Card = itemView.findViewById (R.id.pile_card_inner_card);
